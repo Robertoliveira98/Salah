@@ -1,0 +1,13 @@
+function imprime(palavra : String){
+	Print(palavra);
+}
+
+function Main() {
+	var recebe : Int = teste(1, "a");
+	recebe = teste(2, "b");
+}
+
+function teste(num : Int, palavra : String) : Int {
+	imprime(palavra);
+	return num + 1;
+}

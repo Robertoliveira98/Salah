@@ -1,0 +1,25 @@
+function Main() {
+	var nova : Int = 1221.1 + 100;
+	var velha : Int = 23;
+	var outra : Int = 19;
+	var novaVariavel : Float = 12;
+	var resultado : Bool = false;
+	var teste : Char;
+	nova = 1;
+	nova = 20 + (velha + outra) * 17;
+	nova = 20 + Int(novaVariavel);
+
+	resultado = true && true;
+
+
+	var exemplo : String = "teste";
+	var exemplo2 : String = "teste2";
+
+	exemplo2 = "aaaa";
+
+	var res : String;
+
+	res = exemplo . exemplo2;
+
+	Print(res + "\n");
+}

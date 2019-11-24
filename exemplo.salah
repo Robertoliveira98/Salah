@@ -1,0 +1,14 @@
+function Main(){
+	var a : Bool = true;
+	var b : Bool = false;
+	var c : Int = 1;
+	var d : Int = 2;
+
+	a,b = b,a;
+
+	c,d = d,c;
+
+	Print(a +"---"+ b +"\n");
+
+	Print(c +"---"+ d +"\n");
+}

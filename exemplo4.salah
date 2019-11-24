@@ -1,0 +1,20 @@
+function Main() {
+	var b : Int = 2;
+
+
+	for (var a : Int = 1; a < b; a++){
+	    Print("teste1");
+		for (var d : Int = 1; a < b; a++){
+			Print("teste2");
+			for (var c : Int = 1; a < b; a++){
+				Print("teste3");
+				continue;
+				//break;
+				//break all;
+			}
+			Print("teste4");
+		}
+		Print("teste5");
+	}
+	Print("teste6");
+}

@@ -1,0 +1,13 @@
+function Main() {
+	var c : Int;
+	var d : Int;
+	var a : Int = 2;
+	var b : Int = 5;
+
+	c = (b!) + (a^a);
+
+	d = a % b;
+
+	Print(c +"/n");
+	Print(d +"/n");
+}

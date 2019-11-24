@@ -1,0 +1,21 @@
+function Main(){
+    var a : Int = 1;
+    var b : Float = 2;
+    var c : Int = 3;
+    var d : Int = 2;
+
+    a++;
+    b--;
+
+    a -= c;
+    a += 2;
+
+    b += c;
+    b -= 2;
+
+    b /= a;
+    a *= 2;
+    a /= 2;
+
+    Print(a +"---"+ b +"\n");
+}

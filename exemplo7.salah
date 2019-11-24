@@ -1,0 +1,16 @@
+function Main(){
+    var a : Int = 2;
+	var b : Int = 5;
+	var c : Int = 0;
+
+    if ((a < b) && (c == true)){
+        Print("teste1\n");
+    }
+    else if ((a == (b - 3)) || (c == true)){
+        Print("teste2\n");
+    }
+    else{
+        Print("teste3\n");
+    }
+
+}

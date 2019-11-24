@@ -1,0 +1,15 @@
+function Main(){
+    var a : Int = 0;
+	var b : Int = 5;
+	var c : Bool = false;
+
+    while(a <= 10){
+        Print("---"+ a +"\n");
+        a++;
+    }
+
+    do{
+        Print("---"+ b +"\n");
+    } while(b < 4);
+
+}
